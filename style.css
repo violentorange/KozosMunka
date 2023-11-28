@@ -6,8 +6,17 @@
     background-image: url("https://raw.githubusercontent.com/green-fox-academy/myfirstapp-syllabus/master/assets/first-website-header.png");
     font-family: 'Abril Fatface', serif;
     font-weight: bold;
+    width: 2550px;
+    height: 804px;
 }
 
 .paragraph {
     font-family: 'Josefin Sans', sans-serif;
+}
+
+.feliratok{
+    font-family: 'Merriweather', serif;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-style: italic;
 }
