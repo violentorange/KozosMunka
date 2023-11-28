@@ -1,7 +1,13 @@
-.vastag{
+.bold {
     font-weight: bold;
 }
 
-.picture{
-    
+.picture {
+    background-image: url("https://raw.githubusercontent.com/green-fox-academy/myfirstapp-syllabus/master/assets/first-website-header.png");
+    font-family: 'Abril Fatface', serif;
+    font-weight: bold;
+}
+
+.paragraph {
+    font-family: 'Josefin Sans', sans-serif;
 }
