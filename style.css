@@ -4,22 +4,38 @@ header{
 
 .bold {
     font-weight: bold;
+    display: inline;
+}
+.paragraph{
+    font-weight: normal;
+    display: inline;
 }
 
-.picture {
+.Anakin {
     background-image: url("https://raw.githubusercontent.com/green-fox-academy/myfirstapp-syllabus/master/assets/first-website-header.png");
-    font-family: 'Abril Fatface', serif;
-    font-weight: bold;
-    width: 2550px;
-    height: 804px;
+    background-size: cover;
+    background-position: center;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black; 
+    text-align: center;
+    padding: 20px;
 }
 
-.paragraph {
-}
-
-.feliratok{
-    font-family: 'Merriweather', serif;
-    text-transform: uppercase;
-    font-size: 15px;
+.quote {
+    font-size: 1.5rem;
     font-style: italic;
+}
+
+
+
+ul{
+    list-style-position:inside ;
+    text-align:left;
+ }
+
+li{
+    margin-left: 33vh;
 }
