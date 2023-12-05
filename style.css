@@ -1,41 +1,111 @@
-header{
-    text-align: center;
+@charset "UTF-8";
+/* fejléc, idézetek: font-family: 'Abril Fatface', cursive; */
+/* bekezdések: font-family: 'Josefin Sans', sans-serif; */
+/* feliratok: font-family: 'Merriweather', serif; */
+*, *::before, *::after, *::marker {
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+  box-sizing: border-box;
+  text-align: justify;
 }
 
-.bold {
-    font-weight: bold;
-    display: inline;
-}
-.paragraph{
-    font-weight: normal;
-    display: inline;
+body {
+  max-width: 90vw;
+  margin: 0 auto;
 }
 
-.Anakin {
-    background-image: url("https://raw.githubusercontent.com/green-fox-academy/myfirstapp-syllabus/master/assets/first-website-header.png");
-    background-size: cover;
-    background-position: center;
-    height: 20vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: black; 
-    text-align: center;
-    padding: 20px;
+header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  position: relative;
+}
+header img {
+  width: 100%;
+}
+header p {
+  display: flex;
+  flex-direction: column;
+  padding: 5rem;
+  font-family: "Abril Fatface", cursive;
+  font-size: 8rem;
+  line-height: 5rem;
+  color: #222;
+  position: absolute;
+}
+header p span {
+  font-size: 4rem;
 }
 
-.quote {
-    font-size: 1.5rem;
-    font-style: italic;
+hr {
+  height: 0.5rem;
+  background: #222;
 }
 
-
-
-ul{
-    list-style-position:inside ;
-    text-align:left;
- }
-
-li{
-    margin-left: 33vh;
+section, hr {
+  width: 55vw;
+  margin: 0 auto;
+  font-family: "Josefin Sans", sans-serif;
+}
+section h1, hr h1 {
+  padding: 0 0 2rem;
+  font-size: 2.5rem;
+}
+section h2, hr h2 {
+  padding: 3rem 0 0;
+  font-size: 2.5rem;
+}
+section h3, hr h3 {
+  font-size: 1.5rem;
+  font-style: italic;
+  font-family: "Merriweather", serif;
+}
+section div, hr div {
+  padding: 5rem;
+}
+section .details, hr .details {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+section p.details, hr p.details {
+  padding: 0;
+}
+section p, hr p {
+  padding: 1rem;
+  font-size: 2rem;
+  line-height: 3rem;
+}
+section p span, hr p span {
+  font-size: 2rem;
+  font-weight: 700;
+}
+section ul, hr ul {
+  padding: 2rem 3rem;
+}
+section ul li, hr ul li {
+  font-size: 2rem;
+  padding: 0.5rem 0;
+  list-style: square;
+}
+section ul li::marker, hr ul li::marker {
+  font-size: 2rem;
+}
+section blockquote, hr blockquote {
+  color: white;
+  width: 100%;
+  padding: 5rem;
+  font-size: 5rem;
+  font-family: "Abril Fatface", cursive;
+  background: rgba(40, 40, 40, 0.75);
+  position: relative;
+}
+section blockquote::before, hr blockquote::before {
+  top: 2rem;
+  left: 0;
+  content: "“";
+  font-size: 10rem;
+  line-height: 4rem;
+  position: absolute;
 }
